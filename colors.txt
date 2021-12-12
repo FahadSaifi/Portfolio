@@ -1,0 +1,3 @@
+main color = #23263a;
+card color = #1f2235;
+red color = #ff4a57;

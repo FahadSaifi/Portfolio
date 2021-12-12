@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins|Itim">
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <!--main container-->
+    <section class="container">
+        <div class="home" id="home-page">
+            <div class="watermark">
+                <span class="watermark_text">Fahad Saifi</span>
+            </div>
+            <!--Navbar section starts-->
+            <nav class="navbar">
+                <div class="logo">
+                    <a href="#" title="Homepage"><img src="images/logo2.png"></a>
+                </div>
+                <div class="nav-links">
+                    <div class="sidebar-profile">
+                        <div class="profile-img">
+                            <img src="images/profile.png">
+                        </div>
+                    </div>
+                    <div class="profile-content">
+                        <p>Fahad Saifi</p>
+                        <h3>Front End Developer</h3>
+                    </div>
+                    <ul>
+                        <li><a href="#home-page">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact-us">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="toggle-icon-container">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+            <!--Navbar section ends-->
+            <!--Homepage content section starts-->
+            <div class="home-content">
+                <div class="modal">
+                    <div class="modal-box">
+                        <div class="close-modal"><i class="fas fa-times"></i></div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/RYDiDpW2VkM"></iframe>
+                    </div>
+                </div>
+                <div class="home-left">
+                    <div class="social-media-icons">
+                        <ul>
+                            <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" title="Pinterest"><i class="fab fa-pinterest-p"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="intro">
+                        <p>Hello,</p>
+                        <h1>I am </h1>
+                    </div>
+                    <div class="home-description">
+                        <p>professional web developer with long time experience in this field. I'm Skilled in HTML5, CSS3, Bootstrap 4, SaaS Preprocessor, Javascript and also Knows Version control system Git.
+                        </p>
+                    </div>
+                    <div class="home-btn">
+                        <a onclick="reviewCv('https://drive.google.com/file/d/1osQPkWKvM5LbChk3_utdMqoQE2g6fbnm/view?usp=sharing')" class="cv-btn" title="Resume" target="_BLANK"><i class="fas fa-cloud-upload-alt"></i> Review
+                            CV</a>
+                        <a href="#" class="description-video video-popup" title="video"><i
+                                class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="home-right">
+                    <img src="images/about.png" alt="man.png">
+                </div>
+            </div>
+            <!--Homepage content section ends-->
+        </div>
+        <!--About section starts-->
+        <div class="about-us" id="about">
+            <div class="title">
+                <span class="small-title">about</span>
+                <h1><span>about me</span></h1>
+            </div>
+            <div class="about-info">
+                <div class="about-left-column">
+                    <img src="images/home.png" alt="about-us">
+                </div>
+                <div class="about-right-column">
+                    <div class="center">
+                        <p class="about-description">a experienced web developer with 4 years of experience and extensive knowledge of web technologies.i'm skilled in HTML5, CSS3, Javascript, Bootsrap 4 and SaaS. I also knows version control system Git.</p>
+                        <div class="about-detailed-information">
+                            <ul>
+                                <li>
+                                    <span>04+</span>
+                                    <span>Years<br>Experience</span>
+                                </li>
+                                <li>
+                                    <span>20+</span>
+                                    <span>completed<br>projects</span>
+                                </li>
+                                <li>
+                                    <span>10+</span>
+                                    <span>companies<br>worked</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="resume.pdf" class="cv-download-btn" download>download CV <i
+                                class="fas fa-download"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--About section ends-->
+        <!--Skills Section starts-->
+        <div class="skills-container" id="skills">
+            <div class="title">
+                <span class="small-title">Skills</span>
+                <h1><span>Skills and Expertise</span></h1>
+            </div>
+            <div class="sills-card-container">
+                <div class="card">
+                    <div class="card-icon"><i class="fab fa-html5"></i></div>
+                    <h3>HTML5</h3>
+                    <div class="card-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fab fa-css3-alt"></i></div>
+                    <h3>CSS3</h3>
+                    <div class="card-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fab fa-js-square"></i></div>
+                    <h3>Javascript</h3>
+                    <div class="card-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="sills-card-container-2">
+                <div class="card">
+                    <div class="card-icon"><i class="fab fa-bootstrap"></i></div>
+                    <h3>Bootstrap</h3>
+                    <div class="card-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fab fa-sass"></i></div>
+                    <h3>SaaS</h3>
+                    <div class="card-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-icon"><i class="fab fa-github"></i></div>
+                    <h3>Git</h3>
+                    <div class="card-content"><span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--skills section ends-->
+        <!--portfolio section starts-->
+        <div class="portfolio-container" id="portfolio">
+            <div class="title top-padding">
+                <span class="small-title">projects</span>
+                <h1><span>portfolio</span></h1>
+            </div>
+            <div class="description-container">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="portfolio-slider">
+                <div class="portfolio-slider-container">
+                    <div class="slide">
+                        <div class="slides" id="last">
+                            <div class="slider-left">
+                                <img src="images/slide5.png" alt="slide3">
+                            </div>
+                            <div class="slider-right">
+                                <h3>disney+ hotstar clone</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </p>
+                                <a href="#">demo <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slides">
+                            <div class="slider-left">
+                                <img src="images/slide1.png" alt="compute.jpg">
+                            </div>
+                            <div class="slider-right">
+                                <h3>app landing page</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </p>
+                                <a href="#">demo <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slides">
+                            <div class="slider-left">
+                                <img src="images/slide2.png" alt="slide2">
+                            </div>
+                            <div class="slider-right">
+                                <h3>social media website</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </p>
+                                <a href="#">demo <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slides">
+                            <div class="slider-left">
+                                <img src="images/slide3.png" alt="slide3">
+                            </div>
+                            <div class="slider-right">
+                                <h3>university website</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </p>
+                                <a href="#">demo <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slides">
+                            <div class="slider-left">
+                                <img src="images/slide4.png" alt="slide3">
+                            </div>
+                            <div class="slider-right">
+                                <h3>food delivery website</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </p>
+                                <a href="#">demo <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slides">
+                            <div class="slider-left">
+                                <img src="images/slide5.png" alt="slide3">
+                            </div>
+                            <div class="slider-right">
+                                <h3>disney+ hotstar clone</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </p>
+                                <a href="#">demo <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        <div class="slides" id="first">
+                            <div class="slider-left">
+                                <img src="images/slide1.png" alt="compute.jpg">
+                            </div>
+                            <div class="slider-right">
+                                <h3>app landing page</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.
+                                </p>
+                                <a href="#">demo <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <i class="fas fa-chevron-left prevBtn"></i>
+                        <i class="fas fa-chevron-right nextBtn"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--portfolio section ends-->
+        <!--Services section start-->
+        <div class="sevices" id="services">
+            <div class="title top-padding">
+                <span class="small-title">services</span>
+                <h1><span>services</span></h1>
+            </div>
+            <div class="description-container">
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="services-card-container">
+                <div class="services-card-row">
+                    <div class="services-card">
+                        <div class="services-card-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>web designs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <div class="services-card">
+                        <div class="services-card-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>graphics designing</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                    <div class="services-card">
+                        <div class="services-card-icon">
+                            <i class="fab fa-codepen"></i>
+                        </div>
+                        <h3>web development</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Services section ends-->
+        <!--contact us section start-->
+        <div class="contact-us-container" id="contact-us">
+            <div class="title top-padding">
+                <span class="small-title">contact us</span>
+                <h1><span>connect with us</span></h1>
+            </div>
+            <div class="contact-info-container">
+                <div class="contact-info">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <p>+91 895950303</p>
+                        <p>Call Us If You Have Any Doubt.</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-icon">
+                        <i class="far fa-envelope"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <p>fahadsaifi199@gmail.com</p>
+                        <p>Mail Us Your Doubts.</p>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-info-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-info-content">
+                        <p>C-62 F/V Mohan Nagar</p>
+                        <p>Reach Us At This Location.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form-container">
+                <form name="contact" autocomplete="off">
+                    <div class="input-container">
+                        <div class="input-field">
+                            <input type="text" name="Username" class="form-control" placeholder="Your Username">
+                        </div>
+                        <div class="input-field">
+                            <input type="email" name="Username" class="form-control" placeholder="Your email">
+                        </div>
+                    </div>
+                    <div class="input-field subject">
+                        <input type="text" name="Username" class="form-control" placeholder="Your Subject">
+                    </div>
+                    <div class="message">
+                        <textarea class="textMsg" placeholder="Your Message"></textarea>
+                    </div>
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+            <div class="location">
+                <div class="title directions">
+                    <h1><span>get directions</span></h1>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3506.681712754494!2d77.00914971440363!3d28.489130597308986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19e01000355b%3A0x8023c0116b7002d7!2sGurgaon!5e0!3m2!1sen!2sin!4v1638364203644!5m2!1sen!2sin"
+                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+            <footer>
+                <p>Copyright © 2020 <span>FS</span> All Rights Reserved by ThemeBing.</p>
+            </footer>
+        </div>
+        <!--contact us section ends-->
+        <!--footer us section starts-->
+
+        <!--footer us section ends-->
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
